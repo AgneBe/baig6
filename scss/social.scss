@@ -1,0 +1,16 @@
+.social {
+    display: flex;
+    justify-content: space-around;
+    p {
+      color: #86878b;
+    }
+    .left {
+      width: 30%;
+      padding: 25px;
+      line-height: 1.5rem;
+    }
+    img {
+      padding: 25px;
+      margin: 30px;
+    }
+  }

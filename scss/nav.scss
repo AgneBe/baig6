@@ -1,0 +1,39 @@
+nav {
+    background: $color4;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    height: 70px;
+  
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      transition: 0.4s;
+      @include center-container;
+      cursor: pointer;
+    }
+
+    .links {
+      display: flex;
+      gap: 20px;
+    }
+   
+    i {
+      color: white;
+      cursor: pointer;
+    }
+
+    .links a:hover,
+    .links a.active {
+      background: $color4;
+      border-bottom: 5px solid $color3;
+    }
+  
+    #burger {
+      display: none;
+    }
+  }

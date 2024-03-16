@@ -1,0 +1,47 @@
+.black-box {
+    background: rgba(28, 28, 28, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 596px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .logo {
+      width: 30%;
+      margin: 20px;
+    }
+    .text {
+      width: 30%;
+      margin: 20px;
+      line-height: 1.5rem;
+      .erat {
+        padding: 20px;
+      }
+      .orange {
+        padding: 30px 0 30px 0;
+      }
+      .title {
+        display: flex;
+        flex-direction: column;
+        .paragraph {
+          display: flex;
+          padding: 20px;
+          .title-text {
+            padding-left: 30px;
+          }
+          h4 {
+            padding-bottom: 10px;
+          }
+        }
+        .circle {
+          background-color: #e27866;
+          width: 55px;
+          height: 55px;
+          padding: 15px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }

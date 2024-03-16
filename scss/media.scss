@@ -1,0 +1,127 @@
+@media (max-width: 768px) {
+    body{
+      padding-top: 60px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    nav #burger {
+      display: block !important;
+      transition: 0.6s;
+      margin: 30px;
+    }
+
+    .rotate {
+      transform: rotate(-90deg);
+    }
+  
+    .links {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      width: 100%;
+      background: #1c1c1c;
+      flex-direction: column;
+      align-items: center;
+      transform: translateY(calc(-100% - 60px));
+      transition: 0.6s;
+    }
+  
+    .show-nav {
+      transform: translateY(25px);
+    }
+
+    header {
+     display: flex;
+     flex-direction: column;
+
+     #registration{
+     padding: 20px;
+     width: 100%;
+     }
+    }
+   .social {
+     @include column-container;
+     img{
+      padding: 0px;
+      margin: 10px;
+     }
+     .left {
+      width: 100%;
+     }
+    }
+    .mountains {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      .tabs-container {
+        width: auto;
+        padding: 10px;
+      }
+      .buttons {
+        float: none;
+        display: flex;
+        justify-content: center;
+        width: auto;
+      }
+      .images {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+      }
+    }
+    .black-box {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      .logo {
+        width: 70%;
+      }
+      .text{
+        width: auto;
+      }
+      img{
+        width: auto;
+      }
+    }
+    .recommendations{
+    height: auto;
+  .awesome{
+  padding: 10px;
+  }
+  .ideas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  .design{
+    width: 100%;
+    margin: 20px;
+  }
+  }
+  }
+  .pricing{
+    height: auto;
+    padding: 10px;
+  }
+  .swiper{
+    height:100%;
+    padding: 10px;
+    width: 700px;
+  
+   h1{
+    text-align: center;
+   }
+  
+  }
+  .bottom{
+   display: block;
+   .social{
+    display: flex;
+    flex-direction: row;
+   }
+  }
+  }

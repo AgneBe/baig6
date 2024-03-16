@@ -1,0 +1,45 @@
+.recommendations {
+  height: 592px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  p {
+    color: hsla(228, 2%, 54%, 1);
+    line-height: 1.5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-weight: 400;
+    padding: 30px;
+  }
+  .awesome {
+    padding: 80px;
+    img {
+      padding: 20px;
+    }
+  }
+  .ideas {
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    .design {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .circle {
+      border: 1.5px solid #e27866;
+      width: 60px;
+      height: 60px;
+      padding: 15px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

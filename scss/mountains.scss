@@ -1,0 +1,129 @@
+.mountains {
+    background-image: linear-gradient(
+        270deg,
+        rgba(101, 149, 226, 0.419) 0%,
+        rgba(226, 120, 101, 0.419) 100%
+      ),
+      url("../images/image2.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 595px;
+  
+    .tab {
+      opacity: 0;
+      transition: 1s;
+    }
+    .tab.active {
+      opacity: 1;
+    }
+    .tabs-container {
+      width: 40%;
+    }
+    .buttons {
+      float: left;
+      width: 30%;
+    }
+    h4 {
+      transform: rotate(-45deg);
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 25px;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    .buttons button {
+      cursor: pointer;
+      border: none;
+      -webkit-box-shadow: 7px 5px 47px -18px rgba(0, 0, 0, 0.8);
+      -moz-box-shadow: 7px 5px 47px -18px rgba(0, 0, 0, 0.8);
+      box-shadow: 7px 5px 47px -18px rgba(0, 0, 0, 0.8);
+      width: 100px;
+      height: 100px;
+      background: rgba(163, 113, 105, 1);
+      color: white;
+      margin: 10px;
+      transition: 0.5s;
+    }
+    .tabs-container .selected-button {
+      background-color: rgba(226, 120, 102, 1);
+      opacity: 1;
+    }
+    .images {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 30%;
+      p {
+        display: none;
+      }
+      .img-1 {
+        background: url("../images/image3.png");
+        background-size: cover;
+        background-position: center;
+        width: 168px;
+        height: 168px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          background: linear-gradient(rgba(226, 120, 101, 0.752)),
+            url("../images/image3.png");
+          background-size: auto;
+          background-position: center;
+          p {
+            display: contents;
+          }
+        }
+      }
+      .img-2 {
+        background: url("../images/image4.png");
+        background-size: auto;
+        background-position: center;
+        width: 168px;
+        height: 168px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          background: linear-gradient(rgba(226, 120, 101, 0.752)),
+            url("../images/image4.png");
+          background-size: auto;
+          background-position: center;
+          p {
+            display: contents;
+          }
+        }
+      }
+      .img-3 {
+        background: url("../images/image5.png");
+        background-size: auto;
+        background-position: center;
+        width: 362px;
+        height: 177px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        &:hover {
+          background: linear-gradient(rgba(226, 120, 101, 0.752)),
+            url("../images/image5.png");
+          background-size: auto;
+          background-position: center;
+          p {
+            display: contents;
+          }
+        }
+      }
+    }
+  }

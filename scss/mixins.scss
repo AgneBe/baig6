@@ -1,0 +1,17 @@
+@mixin main-container {
+    max-width: $container-width;
+    margin: 0 auto;
+  }
+
+@mixin center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin column-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

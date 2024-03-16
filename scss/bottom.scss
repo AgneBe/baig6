@@ -1,0 +1,11 @@
+.bottom {
+    background-color: hsla(0, 0%, 11%, 1);
+    display: flex;
+    justify-content: space-around;
+    color: hsla(0, 0%, 100%, 1);
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
